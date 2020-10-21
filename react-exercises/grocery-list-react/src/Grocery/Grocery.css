@@ -1,0 +1,26 @@
+.grocery {
+    max-width: 1000px;
+    margin: auto;
+}
+.grocery__actions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.grocery__select-all, .grocery__new-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.grocery__select-all > *, .grocery__new-item > * {
+    margin-left: 10px;
+}
+
+.grocery__new-item {
+    flex: 1;
+}

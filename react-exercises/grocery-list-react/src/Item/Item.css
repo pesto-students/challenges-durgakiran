@@ -1,0 +1,11 @@
+.item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+.item > * {
+    margin-left: 10px;
+}
