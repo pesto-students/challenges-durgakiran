@@ -1,0 +1,8 @@
+button {
+    padding: 0.2em;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
